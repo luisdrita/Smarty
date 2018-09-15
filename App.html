@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable and professional web design">
+    <meta name="keywords" content="web design, affordable web design, professional web design">
+    <meta name="author" content="Brad Traversy">
+    <title>RCar | App</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <style>
+
+        body,pre{
+            font-family: "Raleway", sans-serif;
+        }
+
+        .container2 {
+            width:80%;
+            margin:auto;
+            padding: 0;
+            overflow:hidden;
+            text-align: center;
+        }
+
+        .grid-container3 > div, .grid-container2 > div, .grid-container22 > div, .grid-container33 > div {
+            height: auto;
+            width: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        footer{
+            padding:1px;
+            margin-top:0;
+            color:#ffffff;
+            background-color: #000000;
+            text-align: center;
+        }
+
+        footer p{
+            float: left;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        article > p,ol{
+            line-height: 35px; text-align: justify;
+        }
+
+        b {
+            font-weight: bolder;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+    </style>
+
+
+</head>
+<body onscroll="myFunction()" onload="resize()" onresize="resize()" style="margin: 0 0 0 0;">
+
+<header>
+    <div style="height: 90px; margin-top:0; background-color: black; text-align: center;color: red;font-size: 80px"> <a href="index.html"> RCar</a>  <span style="color: white;">|</span> <span style="font-size: 35px;color: white;">App</span> </div>
+</header>
+
+<div style="width: 1000px; margin:auto">
+
+    <article class = "pageHeight" style="position:relative; height: 3550px;">
+
+        <div id = "indexxx" style="background-color: black;color: white;position: fixed;left: 5%; top: 175px;width: 100px;text-align: center;font-size: 20px;display: none;">Index</div>
+
+        <ul id = "indexx" style="position:fixed; left:0.125%; top: 195px; list-style-type: none;line-height: 40px;display: none;">
+            <li style="color: black;padding: 0 10px;border-left: solid black;">Introduction
+            <ul style="cursor: pointer; color: black;padding: 0 10px;margin-top: 10px;list-style-type: none;">
+               <li id = "first" onclick="topFunction(150)" style="cursor: pointer; color: black;padding: 0 10px;"> MIT App Inventor </li>
+            </ul>
+            </li>
+            <li style="color: black;border-left: solid black;padding: 0 10px; margin-top: 10px;">Prototype
+                <ul style="color: black;padding: 0 10px;margin-top: 10px;list-style-type: none;">
+                    <li id = "second" onclick="topFunction(870)" style="cursor: pointer; color: black;padding: 0 10px;"> Android App </li>
+                    <li id = "third" onclick="topFunction2(2370)" style="cursor: pointer; color: black;padding: 0 10px;"> User Guide </li>
+                    <li id = "fourth" onclick="topFunction2(3000)" style="cursor: pointer; color: black;padding: 0 10px;"> Download Files </li>
+                    <li id = "fifth" onclick="topFunction2(3000)" style="cursor: pointer; color: black;padding: 0 10px;"> Future Improvements </li>
+                </ul>
+            </li>
+        </ul>
+
+        <script>
+
+            function resize(distance) {
+
+                let index = document.getElementById("indexx");
+                let indexx = document.getElementById("indexxx");
+
+                if (index.style.display === "block" && window.innerWidth < 1490) {
+                    index.style.display = "none";
+                    indexx.style.display = "none";
+
+                }
+
+                if (index.style.display === "none" && window.innerWidth > 1490) {
+                    index.style.display = "block";
+                    indexx.style.display = "block";
+                }
+
+            }
+
+            function topFunction(distance) {
+                document.body.scrollTop = distance;
+                document.documentElement.scrollTop = distance;
+            }
+
+            function topFunction2(distance) {
+                if(document.getElementsByClassName("dropdown")[0].nextElementSibling.style.display==="block"){
+
+                    document.documentElement.scrollTop = distance+7310;
+
+                }else{
+
+                    document.documentElement.scrollTop = distance;
+                }
+            }
+
+            function myFunction() {
+
+                if (document.getElementsByClassName("dropdown")[0].nextElementSibling.style.display === "block") {
+
+                    if (document.documentElement.scrollTop < 150) {
+                        document.getElementById("first").style.color = "black";
+                        document.getElementById("second").style.color = "black";
+                        document.getElementById("third").style.color = "black";
+                        document.getElementById("fourth").style.color = "black";
+                        document.getElementById("fifth").style.color = "black";
+                    } else if ((document.documentElement.scrollTop < 870) && (document.documentElement.scrollTop >= 150)) {
+                        document.getElementById("first").style.color = "red";
+                        document.getElementById("second").style.color = "black";
+                        document.getElementById("third").style.color = "black";
+                        document.getElementById("fourth").style.color = "black";
+                        document.getElementById("fifth").style.color = "black";
+                    } else if ((document.documentElement.scrollTop < 2370+7310) && (document.documentElement.scrollTop >= 870)) {
+                        document.getElementById("second").style.color = "red";
+                        document.getElementById("first").style.color = "black";
+                        document.getElementById("third").style.color = "black";
+                        document.getElementById("fourth").style.color = "black";
+                        document.getElementById("fifth").style.color = "black";
+                    } else if ((document.documentElement.scrollTop < 2745+7300) && (document.documentElement.scrollTop >= 2370+7310)) {
+                        document.getElementById("third").style.color = "red";
+                        document.getElementById("second").style.color = "black";
+                        document.getElementById("fourth").style.color = "black";
+                        document.getElementById("first").style.color = "black";
+                        document.getElementById("fifth").style.color = "black";
+                    } else if ((document.documentElement.scrollTop < 2750+7310) && (document.documentElement.scrollTop >= 2745+7300)) {
+                        document.getElementById("fourth").style.color = "red";
+                        document.getElementById("fifth").style.color = "red";
+                        document.getElementById("third").style.color = "black";
+                        document.getElementById("second").style.color = "black";
+                        document.getElementById("first").style.color = "black";
+                    }
+
+                } else {
+
+                    if (document.documentElement.scrollTop < 150) {
+                        document.getElementById("first").style.color = "black";
+                        document.getElementById("second").style.color = "black";
+                        document.getElementById("third").style.color = "black";
+                        document.getElementById("fourth").style.color = "black";
+                        document.getElementById("fifth").style.color = "black";
+                    } else if ((document.documentElement.scrollTop < 870) && (document.documentElement.scrollTop >= 150)) {
+                        document.getElementById("first").style.color = "red";
+                        document.getElementById("second").style.color = "black";
+                        document.getElementById("third").style.color = "black";
+                        document.getElementById("fourth").style.color = "black";
+                        document.getElementById("fifth").style.color = "black";
+                    } else if ((document.documentElement.scrollTop < 2370) && (document.documentElement.scrollTop >= 870)) {
+                        document.getElementById("second").style.color = "red";
+                        document.getElementById("first").style.color = "black";
+                        document.getElementById("third").style.color = "black";
+                        document.getElementById("fourth").style.color = "black";
+                        document.getElementById("fifth").style.color = "black";
+                    } else if ((document.documentElement.scrollTop < 2745) && (document.documentElement.scrollTop >= 2370)) {
+                        document.getElementById("third").style.color = "red";
+                        document.getElementById("second").style.color = "black";
+                        document.getElementById("fourth").style.color = "black";
+                        document.getElementById("first").style.color = "black";
+                        document.getElementById("fifth").style.color = "black";
+                    } else if ((document.documentElement.scrollTop < 2750) && (document.documentElement.scrollTop >= 2745)) {
+                        document.getElementById("fourth").style.color = "red";
+                        document.getElementById("fifth").style.color = "red";
+                        document.getElementById("third").style.color = "black";
+                        document.getElementById("second").style.color = "black";
+                        document.getElementById("first").style.color = "black";
+                    }
+                }
+            }
+        </script>
+
+        <h1 style="text-align: center;font-size: 30px;font-weight: lighter;">Introduction</h1>
+
+        <h3>MIT App Inventor</h3>
+
+        <figure style="float: right; padding: 10px;">
+
+        <img src="./img/mit.png">
+
+        <figcaption style="margin-top: 10px;text-align: center; font-size: 15px;"> <b>Fig. 1 </b> - MIT App Inventor 2.</figcaption>
+
+        </figure>
+
+        <p>
+            MIT App inventor 2 is an open-source web application created by Google and, now, maintained by MIT. It was made
+            available on July 12, 2010 and publicly released on 15th December of the same year. Development was in charge
+            of a team led by Hal Abelson and Mark Friedman. The programming language on the back of App Inventor is Java.<br>
+
+            &emsp;&emsp;This way, the development of Android apps was significantly simplified. Furthermore, it is considered a
+            very reliable service by checking the classification of the app in the Play Store: 4.1/5 (Sept, 2018). Due to
+            these 2 crucial features, it was already downloaded over 1 million times. By September 2018, there were
+            already 6.8 million registered users spread over 195 countries, running a total of 24 million built applications.
+            It is now available in 12 languages.<br>
+
+            &emsp;&emsp;One can divide the development process in 3 stages. 1) Consists in developing a
+            prototype app using AI Companion. A feature that allows us to directly check in the smartphone the
+            programming performed in the web browser. The newest version, MIT App Inventor 2 (Fig. 1), already includes
+            a new functionality that allows real-time debugging via Wi-Fi (and not just USB). In this case, a QR code is
+            scanned by the smartphone or a connection is established by manually inserting an alphanumeric code, provided by the
+            website, in the MIT AI2 Companion app.
+            2) Then, it is possible to build what was previously developed and saved in a
+            computer, with the right Android extension: .apk. The transference of this file to an
+            Android device may be done by cable or online. 3) Finally, the app may be published in Play
+            Store and, consequently, made accessible to everyone, everywhere...<br>
+
+        </p>
+
+        <h1 style="text-align: center;font-size: 30px;font-weight: lighter;">Prototype</h1>
+
+        <h3>Android App</h3>
+
+        <p style="line-height: 35px; text-align: justify;">
+
+            Using MIT App Inventor 2 (Fig. 1), we developed an Android app that is able to control many features
+            of a RC car, using a Bluetooth connection. Specifically, the angular velocity of the back
+            wheels, the rotation angle of a front servo, a horn, music, light and GPS components. <br>
+
+            &emsp;&emsp;Once the application has many controls (one joystick and several buttons), we needed to clearly
+            define the source of data received by the Arduino. This is particularly
+            important because we were only able to send one type of values (either strings, bytes or integers) to the BT module.
+            Communication between the app and the Arduino was done using 1 byte numbers. Thus, each command was associated to a
+            specific integer ranging from 0 to 255. <br>
+
+            &emsp;&emsp;The inclusion of a GPS module ended up increasing the complexity of the app. The reason is that, at certain moments,
+            the app is sending values and, in others, receiving longitude and latitude coordinates. It was not particularly easy to transmit these numbers
+            due to their high number of decimal digits (requisite to achieve an acceptable location accuracy).
+            The root of the problem was to transmit both values in real time and without overlapping the previously received.<br/>
+
+            &emsp;&emsp;Similarly to what happened with the GPS module, the joystick action was not easy to coordinate.
+            Again, the transmission of horizontal and vertical coordinates was done by including a small delay between
+            their transmission. This was carefully adjusted, so that the Arduino did not understand x as y or y as x.
+            And, at the same time, to prevent overlapped signal transmission. Moreover, a range of numbers common to the command buttons of the app, was also avoided.<br/>
+
+            &emsp;&emsp;As said above, the presence of a single communication channel prevents us from transmitting multiple values
+            at once. For this reason, one should carefully disable all the previously activated timer commands while trying
+            to send new instructions.<br>
+
+            &emsp;&emsp;Another issue out of our control was the number of bugs still present in MIT App Inventor 2.
+            Along the project development, we faced a great number of unexpected issues while programming a more recent
+            version of the Bluetooth module (HM-10). BLE
+            (Bluetooth Low-Energy) library present in MIT App Inventor 2 is still very limited in terms of its
+            functional tools. We ended up using HC-05.
+            If our goal was to transmit sporadic on/off values, such as in the case of
+            a button or a set of them, it would be fine. But, for now, to send many values and in a
+            very reduced time interval (as requested by the joystick to obtain real-time responsive commands) will crash the application still
+            in AI2 Companion Mode or, later, after building the app.
+
+        </p>
+
+        <div class = "dropdown" style="background-color: black; cursor:pointer;border-style: dashed; display: block;position: relative;height: 25px;margin-top: 25px;margin-bottom: 25px;">
+            <div style=" color: white;position: absolute;left: 40px;top: 3px;">MIT App Inventor 2 Code</div>
+            <div id ="plusMinus" style="color: white;position: absolute;right: 40px;bottom: -9px;font-size: 35px;">+</div>
+        </div>
+
+        <div style="display: none;border-style: solid;">
+
+            <h3 style="text-align:center; font-weight: lighter">Global Variables</h3>
+
+            <img src="./img/appCode/globalVariables.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter; margin-top: 50px;">Connecting to Bluetooth Module</h3>
+
+            <img src="./img/appCode/connectingBluetooth.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Disconnecting from Bluetooth Module</h3>
+
+            <img src="./img/appCode/bluetoothDisconnect.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Openning/Closing Bluetooth Window </h3>
+
+            <img src="./img/appCode/gps2.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Receiving GPS Latitude and Longitude Coordinates</h3>
+
+            <img src="./img/appCode/gps.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">GPS Map - Setting Zoom Definitions</h3>
+
+            <img src="./img/appCode/gpsZoom.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Enabling/Disabling Headlights</h3>
+
+            <img src="./img/appCode/headlights.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Enabling/Disabling Right Turn Lights</h3>
+
+            <img src="./img/appCode/rightTurnLight.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Enabling/Disabling Left Turn Lights</h3>
+
+            <img src="./img/appCode/leftLight.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Enabling Buzzer On Touch Down</h3>
+
+            <img src="./img/appCode/buzzer.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Disabling Buzzer On Touch Up</h3>
+
+            <img src="./img/appCode/buzzer2.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Opening App Info Window</h3>
+
+            <img src="./img/appCode/about.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Defining Backpress Button Functionality</h3>
+
+            <img src="./img/appCode/backpress.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Play Music</h3>
+
+            <img src="./img/appCode/music.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Sending Joystick Coordinates from App to Arduino</h3>
+
+            <img src="./img/appCode/joystickDrag.png" style="width:500px; display: block; margin: auto;" >
+
+            <h3 style="text-align:center; font-weight: lighter;margin-top: 50px;">Defining Non-Active Joystick State</h3>
+
+            <img src="./img/appCode/joystickTouchUp.png" style="width:500px; display: block; margin: auto;" >
+
+        </div>
+
+        <div style="position: relative; height: 900px; margin-top: 20px; text-align: center; font-size: 15px;">
+
+       <!--     <video width="900" controls style="display: block; margin: auto; margin-bottom: 20px;">
+                <source src="./video/RCar[DIY].mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            -->
+            <iframe width="900" height="506" src="https://www.youtube.com/embed/44eoiYBrYHY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="margin: auto;"></iframe>
+            <br/>
+            <b>Video 1</b> - DIY RCar project. Includes design, electronics and programming explanation.
+
+        </div>
+
+        <h3 style="margin-top: -350px">User Guide</h3>
+
+        <p>
+
+            &emsp;&emsp;In order to use the app, the first step is to go to the smartphone’s definitions and pair up with the
+            car’s Bluetooth receptor, which goes by the name HC-05. The (default) password is 1234. After this step is concluded,
+            open the app, click on the Bluetooth icon on the bottom end of the screen and establish a connection with the module.
+            All the features the app controls - the front lights, the turn signal lights, the horn, the music player and the joystick - are now ready to be used. The GPS, whose icon is next to the Bluetooth one,
+            can also be accessed (note it does not work indoors). In Fig. 2, some features of the app were depicted.
+
+        </p>
+
+        <figure style="margin-top: -50px">
+
+        <img src="./img/appdescript.png" style="width: 1000px">
+
+        <figcaption style="margin-top: 10px; text-align: center; font-size: 15px;"> <b>Fig. 2 </b> - Description of the main functions of RCar app.</figcaption>
+
+        </figure>
+
+        <script>
+            let acc = document.getElementsByClassName("dropdown");
+            let acc2 = document.getElementsByClassName("pageHeight");
+            let acc3 = document.getElementById("plusMinus");
+            let i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    let panel = this.nextElementSibling;
+                    let panel2 = acc2[0];
+                    let panel3 = acc3;
+
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                        panel2.style.height = "3550px";
+                        panel3.innerHTML = "+";
+                        panel3.style.bottom = "-9px";
+
+                    } else {
+                        panel.style.display = "block";
+                        panel2.style.height = "10850px";
+                        panel3.innerHTML = "-";
+                        panel3.style.bottom = "-6px";
+                    }
+                });
+            }
+
+        </script>
+
+        <h3 style="margin-top: 30px;">Download Files</h3>
+
+        <div style="position: relative;height: 150px;">
+
+            <figure style="position: absolute;left: 200px;top:10px;">
+
+                <a href="files/RCar.aia">
+
+                <img src="img/aia.png" width="100px" style="margin-bottom: 10px;">
+
+                </a>
+
+                <figcaption style="text-align: center;">AIA</figcaption>
+
+            </figure>
+
+            <figure style="position: absolute;left: 600px;top:10px;">
+
+                <a href="./files/RCar.apk">
+
+                <img src="img/apk.png" width="100px">
+
+                </a>
+
+                <figcaption style="text-align: center;">APK</figcaption>
+
+            </figure>
+            
+        </div>
+
+        <h3 style="margin-top: 30px">Future Improvements</h3>
+
+        <ul style="list-style-image: url('./img/bulb.png'); line-height: 35px;">
+            <li>Development of an improved app in terms of stability and memory requirements;</li>
+            <li>Expand compatibility across mobile devices: create iOS version; </li>
+            <li>Introduction of a real time FPV (First Person View) feature would allow us to control the car without
+                keeping it in our range of view. Thus, allowing a set of brand-new applications.</li>
+        </ul>
+
+    </article>
+</div>
+
+<footer>
+    <div class="container2">
+
+        <p>© Copyright 2018 – RCar </p>
+
+    </div>
+</footer>
+</body>
+</html>
