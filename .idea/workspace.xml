@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4184ec2d-7957-4a94-ab5d-744744384faf" name="Default Changelist" comment="" />
+    <list default="true" id="4184ec2d-7957-4a94-ab5d-744744384faf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/files/RCar.aia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RCar.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RCar.fzz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RCar.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/RCar.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/aia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/apk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/app.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/app1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/backpress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/blinkTurnLights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/bluetoothDisconnect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/buzzer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/buzzer2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/connectingBluetooth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/globalVariables.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/gps.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/gps2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/gpsZoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/headlights.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/joystickDrag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/joystickTouchUp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/leftLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appCode/rightTurnLight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appDescription.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/appdescript.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/arduino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bluetooth.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/car.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/car1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/car2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/car3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/car4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/car5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/car6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/car7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/car8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/carBlack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/carModel2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/circuit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/css.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/driver.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fcpx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fritzing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gmail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gps.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hBridge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ino.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/js.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/leds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mitAppInventor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/model1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/model2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/model3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/model4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/model5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/motor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nano.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pixelmator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/printer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rcar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/resistances.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/rightArrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/servo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/solidworks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/solidworks2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ultimaker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/woman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -115,8 +194,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="143" column="91" selection-start-line="143" selection-start-column="91" selection-end-line="143" selection-end-column="91" />
+            <state relative-caret-position="2254">
+              <caret line="98" column="107" lean-forward="true" selection-start-line="98" selection-start-column="107" selection-end-line="98" selection-end-column="107" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -129,6 +208,7 @@
                 <element signature="n#style#0;n#button#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -386,17 +466,17 @@
       <workItem from="1539952357798" duration="381000" />
       <workItem from="1539976058318" duration="4863000" />
       <workItem from="1540029547004" duration="1308000" />
-      <workItem from="1540126547380" duration="11730000" />
+      <workItem from="1540126547380" duration="12625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26332000" />
+    <option name="totallyTimeSpent" value="27227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -408,7 +488,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.12759337" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.12759337" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -574,8 +654,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="143" column="91" selection-start-line="143" selection-start-column="91" selection-end-line="143" selection-end-column="91" />
+        <state relative-caret-position="2254">
+          <caret line="98" column="107" lean-forward="true" selection-start-line="98" selection-start-column="107" selection-end-line="98" selection-end-column="107" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -588,6 +668,7 @@
             <element signature="n#style#0;n#button#0;n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
