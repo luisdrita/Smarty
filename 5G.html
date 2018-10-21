@@ -17,7 +17,7 @@
         }
 
         .container2 {
-            top: 2000px;
+            top: 1000px;
             width:80%;
             margin:auto;
             padding: 0;
@@ -57,7 +57,7 @@
 
         a {
             text-decoration: none;
-            color: red;
+            color: white;
         }
 
     </style>
@@ -67,241 +67,43 @@
 <body onscroll="myFunction()" onload="resize()" onresize="resize()" style="margin: 0 0 0 0;">
 
 <header>
-    <div style="height: 90px; margin-top:0; background-color: black; text-align: center;color: red;font-size: 80px"> <a href="index.html"> Smart City</a>  <span style="color: white;">|</span> <span style="font-size: 35px;color: white;">Smart Meter</span> </div>
+    <div style="padding-top:20px; height: 90px; margin-top:0; background-color: black; text-align: center;color: white;font-size: 60px"> <a href="index.html"> Smarty</a>  <span style="color: white;">|</span> <span style="font-size: 25px;color: yellow;">5G</span> </div>
 </header>
 
 <div style="width: 1000px; margin:auto">
 
-    <article class = "pageHeight" style="position:relative; height: 2200px;">
+    <article class = "pageHeight" style="position:relative; height: 1710px;">
 
-        <div id = "indexxx" style="background-color: black;color: white;position: fixed;left: 5%; top: 175px;width: 100px;text-align: center;font-size: 20px;display: none;">Index</div>
+        <h1 style="text-align: left;font-size: 30px;font-weight: lighter;">Brief Overview</h1>
 
-        <ul id = "indexx" style="position:fixed; left:0.125%; top: 195px; list-style-type: none;line-height: 40px;display: none;">
-            <li style="color: black;padding: 0 10px;border-left: solid black;">Introduction
-                <ul style="cursor: pointer; color: black;padding: 0 10px;margin-top: 10px;list-style-type: none;">
-                    <li id = "first" onclick="topFunction(150)" style="cursor: pointer; color: black;padding: 0 10px;"> MIT App Inventor </li>
-                </ul>
-            </li>
-            <li style="color: black;border-left: solid black;padding: 0 10px; margin-top: 10px;">Prototype
-                <ul style="color: black;padding: 0 10px;margin-top: 10px;list-style-type: none;">
-                    <li id = "second" onclick="topFunction(870)" style="cursor: pointer; color: black;padding: 0 10px;"> Android App </li>
-                    <li id = "third" onclick="topFunction2(2370)" style="cursor: pointer; color: black;padding: 0 10px;"> User Guide </li>
-                    <li id = "fourth" onclick="topFunction2(3000)" style="cursor: pointer; color: black;padding: 0 10px;"> Download Files </li>
-                    <li id = "fifth" onclick="topFunction2(3000)" style="cursor: pointer; color: black;padding: 0 10px;"> Future Improvements </li>
-                </ul>
-            </li>
-        </ul>
+        <p>
+            Until now, communication technologies have been focusing in providing humans new ways of interaction. Although, the power of 5G resides in enabling almost real-time M2M communication. In fact, these entangled networks will be responsible by sensing the world, transmit information to be processed (due to big data analysis, cloud computing should be the standard) and trigger an action. <br>
+            &emsp;&emsp;&emsp;It is expected to observe an exponential rise of technologies which require high-speed communication, very low-latency and a stable internet connection. Big impacts in mobility, energy, tourism, health, education and, consequently, in cities, will mark the beginning of the next decade.<br>
+            &emsp;&emsp;&emsp; Let’s be active, foster 5G revolution and preserve the most important thing on Earth - life.<br>
+            <b style="display: block; text-align: center">“If you want to be BIG, think bigger.” – By Luís Rita. </b>
+        </p>
 
-        <script>
+        <figure>
 
-            function resize(distance) {
+            <img src="./img/smart.jpg" style="width: 1000px; margin-left: -40px">
 
-                let index = document.getElementById("indexx");
-                let indexx = document.getElementById("indexxx");
-
-                if (index.style.display === "block" && window.innerWidth < 1490) {
-                    index.style.display = "none";
-                    indexx.style.display = "none";
-
-                }
-
-                if (index.style.display === "none" && window.innerWidth > 1490) {
-                    index.style.display = "block";
-                    indexx.style.display = "block";
-                }
-
-            }
-
-            function topFunction(distance) {
-                document.body.scrollTop = distance;
-                document.documentElement.scrollTop = distance;
-            }
-
-            function topFunction2(distance) {
-                if(document.getElementsByClassName("dropdown")[0].nextElementSibling.style.display==="block"){
-
-                    document.documentElement.scrollTop = distance+7310;
-
-                }else{
-
-                    document.documentElement.scrollTop = distance;
-                }
-            }
-
-            function myFunction() {
-
-                if (document.getElementsByClassName("dropdown")[0].nextElementSibling.style.display === "block") {
-
-                    if (document.documentElement.scrollTop < 150) {
-                        document.getElementById("first").style.color = "black";
-                        document.getElementById("second").style.color = "black";
-                        document.getElementById("third").style.color = "black";
-                        document.getElementById("fourth").style.color = "black";
-                        document.getElementById("fifth").style.color = "black";
-                    } else if ((document.documentElement.scrollTop < 870) && (document.documentElement.scrollTop >= 150)) {
-                        document.getElementById("first").style.color = "red";
-                        document.getElementById("second").style.color = "black";
-                        document.getElementById("third").style.color = "black";
-                        document.getElementById("fourth").style.color = "black";
-                        document.getElementById("fifth").style.color = "black";
-                    } else if ((document.documentElement.scrollTop < 2370+7310) && (document.documentElement.scrollTop >= 870)) {
-                        document.getElementById("second").style.color = "red";
-                        document.getElementById("first").style.color = "black";
-                        document.getElementById("third").style.color = "black";
-                        document.getElementById("fourth").style.color = "black";
-                        document.getElementById("fifth").style.color = "black";
-                    } else if ((document.documentElement.scrollTop < 2745+7300) && (document.documentElement.scrollTop >= 2370+7310)) {
-                        document.getElementById("third").style.color = "red";
-                        document.getElementById("second").style.color = "black";
-                        document.getElementById("fourth").style.color = "black";
-                        document.getElementById("first").style.color = "black";
-                        document.getElementById("fifth").style.color = "black";
-                    } else if ((document.documentElement.scrollTop < 2750+7310) && (document.documentElement.scrollTop >= 2745+7300)) {
-                        document.getElementById("fourth").style.color = "red";
-                        document.getElementById("fifth").style.color = "red";
-                        document.getElementById("third").style.color = "black";
-                        document.getElementById("second").style.color = "black";
-                        document.getElementById("first").style.color = "black";
-                    }
-
-                } else {
-
-                    if (document.documentElement.scrollTop < 150) {
-                        document.getElementById("first").style.color = "black";
-                        document.getElementById("second").style.color = "black";
-                        document.getElementById("third").style.color = "black";
-                        document.getElementById("fourth").style.color = "black";
-                        document.getElementById("fifth").style.color = "black";
-                    } else if ((document.documentElement.scrollTop < 870) && (document.documentElement.scrollTop >= 150)) {
-                        document.getElementById("first").style.color = "red";
-                        document.getElementById("second").style.color = "black";
-                        document.getElementById("third").style.color = "black";
-                        document.getElementById("fourth").style.color = "black";
-                        document.getElementById("fifth").style.color = "black";
-                    } else if ((document.documentElement.scrollTop < 2370) && (document.documentElement.scrollTop >= 870)) {
-                        document.getElementById("second").style.color = "red";
-                        document.getElementById("first").style.color = "black";
-                        document.getElementById("third").style.color = "black";
-                        document.getElementById("fourth").style.color = "black";
-                        document.getElementById("fifth").style.color = "black";
-                    } else if ((document.documentElement.scrollTop < 2745) && (document.documentElement.scrollTop >= 2370)) {
-                        document.getElementById("third").style.color = "red";
-                        document.getElementById("second").style.color = "black";
-                        document.getElementById("fourth").style.color = "black";
-                        document.getElementById("first").style.color = "black";
-                        document.getElementById("fifth").style.color = "black";
-                    } else if ((document.documentElement.scrollTop < 2750) && (document.documentElement.scrollTop >= 2745)) {
-                        document.getElementById("fourth").style.color = "red";
-                        document.getElementById("fifth").style.color = "red";
-                        document.getElementById("third").style.color = "black";
-                        document.getElementById("second").style.color = "black";
-                        document.getElementById("first").style.color = "black";
-                    }
-                }
-            }
-        </script>
-
-        <h1 style="text-align: left;font-size: 30px;font-weight: lighter;">Idea Description</h1>
-
-        <figure style="float: right; padding: 10px;">
-
-            <img src="./img/mit.png">
-
-            <figcaption style="margin-top: 10px;text-align: center; font-size: 15px;"> <b>Fig. 1 </b> - MIT App Inventor 2.</figcaption>
+            <figcaption style="margin-top: 10px;text-align: center; font-size: 15px;"> <b>Fig. 1 </b> - Toronto, Canada.</figcaption>
 
         </figure>
 
-        <p>
-
-
-
-        </p>
-
-        <h1 style="text-align: left;font-size: 30px;font-weight: lighter;">Problem</h1>
+        <h1 style="text-align: left;font-size: 30px;font-weight: lighter;">Reflexion on 5G</h1>
 
         <p>
 
-            1.	I run a small company and do not have a large revenue. To advertise for a couple of hours would already be enough. This will from many merchants created a gap in the market;
-            2.	Outdoor advertising rent is not straightforward;
-            3.	Analog outdoors do not allow quick change of what is being shown;
-            4.	Lack of visible ways to publicize parish/city specific events;
-            5.	None of the outdoor screens in Portugal allow the user to interact with them;
-            6.	Most of elders do not have access to social networks. And TV channels do not preferentially advertise local events.
+            In what way is 5G different from any other already implemented technology?<br>
+            &emsp;&emsp;&emsp;To begin with, 5G stands for 5th generation. The 5th generation of a type of mobile communication network that started with 1G, in Japan, in 1979. Since then, newcomers have been presenting lower latencies, increased velocities of data transference, more robust networks (supporting multiple connected devices) and low-energy operations. <br>
+            &emsp;&emsp;&emsp;During many years, until the arousal of 4G, these networks were almost limited to voice and text communication. Later, 4G came and allowed a plenty of new ways of interaction among users. In fact, this was the trigger that turned social networks ubiquitous.<br>
+            &emsp;&emsp;&emsp;5G is once again changing the paradigm. By strongly enhancing the 4 features discussed above (latency, speed, number of connected devices and energy consumption), it will lead to the creation of smart cities. Cities able to predict inhabitants’ needs and automatically adjust to fulfill them. As I usually say, the core power of 5G is in turning possible machine-to-machine real-time communication.<br>
+            &emsp;&emsp;&emsp;On one hand, the possibilities this next-generation network bring are unquestionable. Although, the challenges to implement them in big cities will not be easy to overcome. In fact, it will be necessary the deployment of innumerous small-sized cells to guarantee good 5G coverage, along with the right permissions to do so. For that, public and private sector should work together. The former should relax some legislation still in vigor for the previous generation networks. Otherwise, it may turn economically infeasible to implement 5G. On the other hand, private sector should have initiative to invest and work together to deploy the necessary technology to the seamlessly functioning of 5G. It is true the investments needed are big, but this new form of communication will bring a vast lack of benefits: improved health, smarter management of human and natural resources…<br>
+            &emsp;&emsp;&emsp;Many are the areas that will be affected by this new generation of mobile devices about to appear. I present in this website the devices I believe will be the 1st to benefit from 5G and to have a greater impact on population.
 
 
         </p>
-
-        <h1 style="text-align: left;font-size: 30px;font-weight: lighter;">Solution</h1>
-
-        <p>
-
-            Such a smart screen may have a commercial and social purpose:
-
-            Commercial Insight
-            In a quest to stimulate small enterprise development, a simple add in a key place for a short period of time would be enough. One way to decrease the cost of advertising is by turning the costs of ad displaying/replacement null. This way, besides the slow maintenance such smart screens would need, along with some electricity costs, it would be very lucrative to maintain such devices on the streets.
-
-            Another part of the solution would consist in an app. Using it, users should be able to upload the content they desire to show (images/videos) for a 24h (maximum) approval. I am still not completely aware of the legislation these ads should comply with, but certainly the ad would be much faster on the streets than by using traditional mechanisms. According to the duration of the ad, the period of the day and the season, the user will be able to promptly know how much it would cost and decide if we really want to submit it for approval or not. A complete list of smart screens displaced over the city might appear and the buyer may opt by picking a cheaper screen (of course, it would be in an area less visible). With this functionality, the buyer may easily pick the best screen accordingly to the specificities of the area. In other words, to show it near a university if the target public is young adults.
-
-            These screens would need to big enough to be catchy. They could be double faced depending on the specificities of the area. LED displays would be used to decrease energy consumption. Luminosity sensors would need to be present to regulate screen brightness accordingly to the environment. Strip lights all around the screens would turn them more attractive. Eventually, speakers could be added to those to communicate different type of messages. Although, this needs to be checked because I am not totally aware if this can be allowed by legislation. Thinking in a future appliance, we could integrate UHD cameras with the screen. This would give us enough resolution to use face recognition algorithms and the ad would interact with the transients based, for example, in the number of people looking at it. Or, based in image processing algorithms (already available) assess for how long people looked at the ad and to capture their facial expression (e.g. - laughing).
-
-            5G would have a crucial role, once the smart screens would exclusively stream content over the internet. Consequently, every image, video and data processing would be done in the cloud. This decreases the cost of each screen because they would only need a 5G connection and 1 or 2 led screens (dependent on the place where it would be).
-
-
-            Social Insight
-            In this case, those screens were intended to be preferentially displace in areas with considerable amount of people walking by and where the population is predominantly older.
-            It is important to find a solution such as local events are promoted among this age group that is incessantly growing. This would empower them to choose and enroll in their favorite activities without the need of external people. Giving them autonomy and free choice.
-
-            In each screen would be displayed a set of activities and their timetables available for the present week. For sake of simplicity and cost-containment, it is not thought to be touch-reactive. The screen could include small videos of each activity or just a static image. Then, the users would have 2 ways of enrolling on them:
-            •	Calling to a phone number on the bottom of the TV;
-            •	Using a mobile app with automatic payment method for the most advanced users.
-            These activities could be indoor/outdoor. In case of being outdoor, the place of the screen could be a meeting point and also the place where the activity would have place. In the former case, it could be a sport where some method of transportation would pick up and leave them.
-            Depending on the number of enrolled people, they would be realized or not.
-
-            These activities may include excursions to remarkable places such as zoos, gardens, nature, cultural…
-            This would game changing. This would have a strong impact in social exclusion. Such a big problem in elders.
-            It is likely parish councils would help with this initiative by providing guides and transport necessary to these events.
-            A month pass could lead to an enhanced engage of people and will decrease money transactions. Although, should also be provided a pay-per-activity in order to englobe people from all economical subtracts.
-
-            Finally, the app developed in this context would focus exclusively in integrating a payment method, a detailed preview of every available activity and the number of people already enrolled.
-
-            5G would have a crucial role, once the smart screens would exclusively stream content over the internet. Consequently, every image, video and data processing would be done in the cloud. This decreases the cost of each screen because they would only need a 5G connection and 1 or 2 led screens (dependent on the place where it would be).
-
-        </p>
-
-        <script>
-            let acc = document.getElementsByClassName("dropdown");
-            let acc2 = document.getElementsByClassName("pageHeight");
-            let acc3 = document.getElementById("plusMinus");
-            let i;
-
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function() {
-                    let panel = this.nextElementSibling;
-                    let panel2 = acc2[0];
-                    let panel3 = acc3;
-
-                    if (panel.style.display === "block") {
-                        panel.style.display = "none";
-                        panel2.style.height = "3550px";
-                        panel3.innerHTML = "+";
-                        panel3.style.bottom = "-9px";
-
-                    } else {
-                        panel.style.display = "block";
-                        panel2.style.height = "10850px";
-                        panel3.innerHTML = "-";
-                        panel3.style.bottom = "-6px";
-                    }
-                });
-            }
-
-        </script>
-
-        <ul style="list-style-image: url('./img/bulb.png'); line-height: 35px;">
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
 
     </article>
 </div>
@@ -309,8 +111,21 @@
 <footer>
     <div class="container2">
 
-        <p>© Copyright 2018 – Smart City </p>
-
+        <p>© Copyright 2018 – Smarty</p>
+        <div id = "socialMedia">
+            <a href = "https://www.facebook.com/luis.rita.12?ref=bookmarks" target="_blank" rel="noopener noreferrer">
+                <img src = "./img/MediaIcons/facebook.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.linkedin.com/in/lu%C3%ADs-rita-750302122/" target="_blank" rel="noopener noreferrer">
+                <img src = "./img/MediaIcons/linkedin.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.youtube.com/channel/UCUJV1y666FRLzpOXu3O8wDw" target="_blank" rel="noopener noreferrer">
+                <img src = "./img/MediaIcons/youtube.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "mailto:luis20dr@gmail.com">
+                <img src = "./img/MediaIcons/gmail.png" width="25" style="margin-right: 5%">
+            </a>
+        </div>
     </div>
 </footer>
 </body>

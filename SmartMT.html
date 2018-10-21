@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Smart City | Outdoor TV</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <style>
+
+        body,pre{
+            font-family: "Raleway", sans-serif;
+        }
+
+        .container2 {
+            top: 2000px;
+            width:80%;
+            margin:auto;
+            padding: 0;
+            overflow:hidden;
+            text-align: center;
+        }
+
+        .grid-container3 > div, .grid-container2 > div, .grid-container22 > div, .grid-container33 > div {
+            height: auto;
+            width: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        footer{
+            padding:1px;
+            margin-top:0;
+            color:#ffffff;
+            background-color: #000000;
+            text-align: center;
+        }
+
+        footer p{
+            float: left;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        article > p,ol{
+            line-height: 35px; text-align: justify;
+        }
+
+        b {
+            font-weight: bolder;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #socialMedia{
+            display:block;
+            border-style: dashed;
+            border-color: transparent;
+            float:right;
+            margin-top:1%;
+            width: 150px;
+        }
+
+        .container2 {
+            width:80%;
+            margin:auto;
+            padding: 0%;
+            overflow:hidden;
+            border-style: dotted;
+            border-color: transparent;
+            text-align: center;
+        }
+
+    </style>
+
+
+</head>
+<body onscroll="myFunction()" onload="resize()" onresize="resize()" style="margin: 0 0 0 0;">
+
+<header>
+    <div style="padding-top: 20px; height: 90px; margin-top:0; background-color: black; text-align: center;color: red;font-size: 60px"> <a href="index.html"> Smarty</a>  <span style="color: white;">|</span> <span style="font-size: 25px;color: yellow;">Meter</span> </div></header>
+
+<div style="width: 1000px; margin:auto">
+
+    <article class = "pageHeight" style="width: 90%;position:relative; height: 2600px;">
+
+        <h1 style="text-align: left;font-size: 30px;font-weight: lighter;">Problem</h1>
+
+        <ol style="line-height: 35px;">
+        <li>Paying astronomical bills due to broken pipes or active electrical appliances;</li>
+        <li>Flooded homes;</li>
+        <li>No in-demand control over water/energy consumption and of the price rates defined by the companies;</li>
+        <li>Users cannot easily update their water/energy packs and tariffs. Sometimes, it is needed the installation of new devices or long waiting times on the phone or in the store.</li>
+    </ol>
+<p>
+    In a company perspective:
+</p>
+        <ol style="line-height: 35px;">
+            <li>An increasingly number of users are hacking such meters by using magnets or similar objects. Moreover, in construction areas, sometimes water is consumed without company awareness. Inducting the company in outstanding losses;</li>
+            <li>Huge amounts of money are being spent by paying people to execute water/electricity readings. In remote locations, this issue is particularly relevant. The most recent tech introduced in these systems only allows companies to automatically check user’s consumption in a 1km radius. And this requires installation of expensive equipment;</li>
+            <li>Water and electricity services are still not adjusted accordingly to users’ area consumptions. There are not enough data to allow a smart allocation of resources by the companies;</li>
+            <li>Hard to control leakage, burst and water temperature/pressure with the current implemented tech. In an electric perspective, short-circuits and energy losses are hard to avoid;</li>
+            <li>Depending on the waterflow across the actual meters, water consumption may not be precisely detected;</li>
+            <li>It is estimated that a big fraction of these meters is not working correctly (due to ageing or improper use) and the service provider companies are not aware;</li>
+            <li>When users do not pay, there is not a remote way of cancelling water/electricity service.</li>
+        </ol>
+
+        <h1 style="text-align: left;font-size: 30px;font-weight: lighter;">Solution</h1>
+
+        <p>
+
+            Besides 5G, these smart meters will require technology already available but not widely used (in this context). 5G will have a key importance due to low energy consumption, reliability of the connection with the service provider and will enable multiple devices to be connected at the same time, in the same area.<br>
+
+            &emsp;&emsp;&emsp;In the case of water meters, a small motor inside will be needed to block/allow water flowing. With last generation and cost-effective batteries, they will last more than 1 decade. Before getting out of charge, they should trigger an alert to the company in order to be substituted. This way, they should be enough to power 5G communication system, ultrasonic sensors (detect water flow) and the motor discussed above.<br>
+
+            &emsp;&emsp;&emsp;Energy meters would rely again in 5G connection, with an interrupter controlled by an app as discussed below. Such meter can easily use powerline energy due to proximity to the circuits. As an alternative, a battery can be used.<br>
+
+            &emsp;&emsp;&emsp;Developing a (free) app that would allow us to check in real-time all these aspects would enhance consumer experience. In fact, besides the 5G communication possibility in the meter, we could use a NOSQL database which would gather all the data. And, then, process it in the cloud. The app would be able to show data in a visually appealing set of charts.<br>
+            &emsp;&emsp;&emsp;Moreover, it would be possible to have all the invoices chronologically order in the app instead of lost in an infinite in-box mail.<br>
+            &emsp;&emsp;&emsp;The peace of mind these meters will bring to people will certainly incentive them to make the investment. In fact, at the end of the day, they are saving money once unexpected events (broken pipes or turned on machines) will not have importance anymore.<br>
+
+            &emsp;&emsp;&emsp;In a company point-of-view, it would also be strongly beneficial. In one way, this would end up with the personal inherent costs of reading every single meter time-to-time. It would be able to charge prices based on consumption and not on estimates. And, in cases of lack of payment, it could easily cut-off water/energy supply. I am sure companies will be willing to invest in such a device.<br>
+            &emsp;&emsp;&emsp;All the generated data may still have a key role in predicting user consumption over time and the companies will be able to allocate resources accordingly.
+        </p>
+
+        <h1 style="text-align: left;font-size: 30px;font-weight: lighter;">Other Applications</h1>
+
+        <ul style="list-style-image: url('./img/bulb.png'); line-height: 35px;">
+            <li>Technology included in the previous prototypes can be used for new public/private watering clocks. Saving water and money for consumers and the city;</li>
+            <li>Smart outlets could also be thought with very similar tech to the one used in electrical meters;</li>
+            <li>The meters previously discussed were thought to private use but may also be integrated in the public electric/water network to more accurate recordings of the temperature, pressure, water flow... Avoiding leakages and, consequently, implicated landslides.</li>
+        </ul>
+
+        <p>
+            At the end, we could offer a big range of different services/products using similar technology at lower prices.
+        </p>
+
+        <figure style="padding: 10px; margin: auto; text-align: center">
+
+            <img src="./img/www.png" style="width: 800px;">
+
+            <figcaption style="margin-top: 10px;text-align: center; font-size: 15px;"> <b>Fig. 1 </b> - Smart Meter.</figcaption>
+
+        </figure>
+
+    </article>
+</div>
+
+<footer>
+    <div class="container2">
+
+        <p>© Copyright 2018 – Smarty</p>
+        <div id = "socialMedia">
+            <a href = "https://www.facebook.com/luis.rita.12?ref=bookmarks" target="_blank" rel="noopener noreferrer">
+                <img src = "./img/MediaIcons/facebook.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.linkedin.com/in/lu%C3%ADs-rita-750302122/" target="_blank" rel="noopener noreferrer">
+                <img src = "./img/MediaIcons/linkedin.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "https://www.youtube.com/channel/UCUJV1y666FRLzpOXu3O8wDw" target="_blank" rel="noopener noreferrer">
+                <img src = "./img/MediaIcons/youtube.png" width="25" style="margin-right: 5%">
+            </a>
+            <a href = "mailto:luis20dr@gmail.com">
+                <img src = "./img/MediaIcons/gmail.png" width="25" style="margin-right: 5%">
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
