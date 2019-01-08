@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4184ec2d-7957-4a94-ab5d-744744384faf" name="Default Changelist" comment="">
+    <list default="true" id="4184ec2d-7957-4a94-ab5d-744744384faf" name="Default Changelist" comment="File">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5G.html" beforeDir="false" afterPath="$PROJECT_DIR$/5G.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartMT.html" beforeDir="false" afterPath="$PROJECT_DIR$/SmartMT.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmartTV.html" beforeDir="false" afterPath="$PROJECT_DIR$/SmartTV.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -61,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SmartTV.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="167" column="74" selection-start-line="167" selection-start-column="74" selection-end-line="167" selection-end-column="74" />
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -220,16 +217,15 @@
       <workItem from="1540126547380" duration="12900000" />
       <workItem from="1540163561619" duration="12000" />
       <workItem from="1540163590808" duration="16000" />
-      <workItem from="1546874808043" duration="2325000" />
+      <workItem from="1546874808043" duration="3517000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29855000" />
+    <option name="totallyTimeSpent" value="31047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -317,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SmartTV.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="167" column="74" selection-start-line="167" selection-start-column="74" selection-end-line="167" selection-end-column="74" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
